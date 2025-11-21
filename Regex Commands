@@ -1,0 +1,12 @@
+
+First sample case:
+
+REQUEST:\s*([A-Za-z]+\s+\d{,2},\s+\d{4})       Data identified: February 16, 2016    January 6, 2016
+FH\s*#:\s*([a-zA-Z0-9]+)    				   Data identified:	FH: 7244567H     FH: 7212695N
+held on ([A-Za-z]+\s+\d{,2},\s+\d{4}) 		   Data identified: This is not identifying any data.  Not 	sure what I am doing wrong.
+
+Second sample case:
+
+REQUEST:\s*([A-Za-z]+\s+\d{,2},\s+\d{4})	   Data identified: January 6, 2016
+FH\s*#:\s*([a-zA-Z0-9]+)					   Data identified:	FH: 7212695N
+held on ([A-Za-z]+\s+\d{,2},\s+\d{4})		   Data identified: This is not identifying any data.  Not sure what I am doing wrong.
